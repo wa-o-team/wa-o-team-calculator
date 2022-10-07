@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/calculator/calculator",
+    "pages/logs/logs",
+    "pages/Anniversary/Anniver",
+    "pages/Anniversary/detailAnniver/detailAnniver",
+    "pages/Anniversary/newAnniver/newAnniver"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#f5bbd4",
+    "backgroundColor": "#f5f5f5",
+    "borderStyle": "white",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/calculator/calculator",
+        "text": "计算",
+        "iconPath": "icon/_cal.png",
+        "selectedIconPath": "icon/cal.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "记账",
+        "iconPath": "icon/_bi.png",
+        "selectedIconPath": "icon/bi.png"
+      },
+      {
+        "pagePath": "pages/Anniversary/Anniver",
+        "text": "记事",
+        "iconPath": "icon/_yilan.png",
+        "selectedIconPath": "icon/yilan.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

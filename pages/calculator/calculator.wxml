@@ -1,0 +1,39 @@
+<view class='screen'>{{result}}</view>
+ 
+<view class='test-bg'>
+  <view class='btnGroup'>
+    <view class='item grey' bindtap='clickButton' id="{{C}}">AC</view>
+    <view class='item grey' bindtap='clickButton' id="{{addSub}}">+/-</view>
+    <view class='item grey' bindtap='clickButton' id="{{percent}}">%</view>
+    <view class='item brown' bindtap='clickButton' id="{{div}}">÷</view>
+  </view>
+ 
+  <view class='btnGroup'>
+    <view class='item black' bindtap='clickButton' id="{{id7}}">7</view>
+    <view class='item black' bindtap='clickButton' id="{{id8}}">8</view>
+    <view class='item black' bindtap='clickButton' id="{{id9}}">9</view>
+    <view class='item brown' bindtap='clickButton' id="{{mut}}">×</view>
+  </view>
+ 
+  <view class='btnGroup'>
+    <view class='item black' bindtap='clickButton' id="{{id4}}">4</view>
+    <view class='item black' bindtap='clickButton' id="{{id5}}">5</view>
+    <view class='item black' bindtap='clickButton' id="{{id6}}">6</view>
+    <view class='item brown' bindtap='clickButton' id="{{sub}}">-</view>
+  </view>
+ 
+  <view class='btnGroup'>
+    <view class='item black' bindtap='clickButton' id="{{id1}}">1</view>
+    <view class='item black' bindtap='clickButton' id="{{id2}}">2</view>
+    <view class='item black' bindtap='clickButton' id="{{id3}}">3</view>
+    <view class='item brown' bindtap='clickButton' id="{{add}}">+</view>
+  </view>
+ 
+  <view class='btnGroup'>
+    <!-- <view class='item black' bindtap='clickButton' id="{{percent}}">%</view> -->
+    <view class='item0 black' bindtap='clickButton' id="{{id0}}">0</view>
+    <view class='item black' bindtap='clickButton' id="{{dot}}">.</view>
+    <view class='item brown' bindtap='clickButton' id="{{equ}}">=</view>
+  </view>
+ 
+</view>
